@@ -37,6 +37,6 @@ class CityListTest {
         
         City capitalCity = new City("Edmonton", "Alberta", true);
         
-        assertEquals(true, city.getIsCapital());
+        assertEquals(true, capitalCity.getIsCapital());
     }
 }
