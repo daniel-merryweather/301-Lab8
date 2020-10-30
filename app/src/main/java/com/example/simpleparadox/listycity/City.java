@@ -3,18 +3,18 @@ package com.example.simpleparadox.listycity;
 public class City implements Comparable<City>{
     private String city;
     private String province;
-    private boolean isCaptial;
+    private boolean isCapital;
 
     City(String city, String province){
         this.city = city;
         this.province = province;
-        this.isCaptial = false;
+        this.isCapital = false;
     }
     
-    City(String city, String province, boolean isCaptial){
+    City(String city, String province, boolean isCapital){
         this.city = city;
         this.province = province;
-        this.isCaptial = isCaptial;
+        this.isCapital = isCapital;
     }
 
     String getCityName(){
@@ -25,8 +25,8 @@ public class City implements Comparable<City>{
         return this.province;
     }
     
-    boolean getIsCaptial(){
-        return this.isCaptial;
+    boolean getIsCapital(){
+        return this.isCapital;
     }
 
     @Override
